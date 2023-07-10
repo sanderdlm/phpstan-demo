@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 2.
+ * unknown methods checked on all expressions (not just $this),
+ * validating PHPDocs
+ */
+
 class Customer
 {
     /**

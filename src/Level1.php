@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 1.
+ * possibly undefined variables, unknown magic methods
+ * and properties on classes with __call and __get
+ */
+
 function format(string $text, string $type): string
 {
     if ($type === 'json') {

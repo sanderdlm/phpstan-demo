@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * 6. report missing typehints
+ */
+
 class Friend
 {
     private $name;
