@@ -2,20 +2,20 @@
 
 function helloWorld(string $name): string
 {
-	return 'Hello ' . $name . '!';
+    return 'Hello ' . $name . '!';
 }
 
 function add(int $number, int $increase): int
 {
-	return $number + $increase;
+    return $number + $increase;
 }
 
 class Employee
 {
-	public function __construct()
-	{
-		echo $this->name;
-	}
+    public function __construct()
+    {
+        echo $this->name;
+    }
 }
 
 echo helloWordl('John');

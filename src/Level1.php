@@ -2,15 +2,15 @@
 
 function format(string $text, string $type): string
 {
-	if ($type === 'json') {
-		$output = json_encode($text);
-	}
+    if ($type === 'json') {
+        $output = json_encode($text);
+    }
 
-	if ($type === 'html') {
-		$output = htmlentities($text);
-	}
-	
-	return $output;
+    if ($type === 'html') {
+        $output = htmlentities($text);
+    }
+
+    return $output;
 }
 
 echo format('This is a demo', 'json') . PHP_EOL;
